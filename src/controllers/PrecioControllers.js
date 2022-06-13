@@ -24,7 +24,7 @@ class PrecioController {
     }
     get(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log("hola, entro");
+            console.log("hola, entro vol2");
             const precioDaoMongoDb = new PrecioDaoMongoDb();
             const rta = yield precioDaoMongoDb.get(req.params.tipoDeVehiculo);
             console.log(req.params);
